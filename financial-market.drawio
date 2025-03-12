@@ -1,77 +1,209 @@
-<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.4 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="26.0.4" pages="4">
-  <diagram name="Page-1" id="sY8mRoEGRzCLP8gTZ-oA">
-    <mxGraphModel dx="1434" dy="959" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.16 Chrome/132.0.6834.196 Electron/34.2.0 Safari/537.36" version="26.0.16" pages="4">
+  <diagram name="regulated-market-trade-workflow" id="sY8mRoEGRzCLP8gTZ-oA">
+    <mxGraphModel dx="3585" dy="3498" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="SQWLTOSfCjaKpBRhQkIQ-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SQWLTOSfCjaKpBRhQkIQ-1" target="SQWLTOSfCjaKpBRhQkIQ-2">
+        <mxCell id="SQWLTOSfCjaKpBRhQkIQ-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" source="SQWLTOSfCjaKpBRhQkIQ-1" target="wKs-RtY5d3qRZCri0VyZ-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SQWLTOSfCjaKpBRhQkIQ-1" value="pre trade" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="260" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="SQWLTOSfCjaKpBRhQkIQ-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SQWLTOSfCjaKpBRhQkIQ-2" target="SQWLTOSfCjaKpBRhQkIQ-3">
+        <mxCell id="-3gWDQ8er-pBLE5MIMMh-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="SQWLTOSfCjaKpBRhQkIQ-1" target="-3gWDQ8er-pBLE5MIMMh-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SQWLTOSfCjaKpBRhQkIQ-2" value="trade execution" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="260" width="120" height="60" as="geometry" />
+        <mxCell id="SQWLTOSfCjaKpBRhQkIQ-1" value="pre trade&lt;div&gt;preparation and analysis before execution&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="10" y="270" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="SQWLTOSfCjaKpBRhQkIQ-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SQWLTOSfCjaKpBRhQkIQ-3" target="SQWLTOSfCjaKpBRhQkIQ-4">
+        <mxCell id="SQWLTOSfCjaKpBRhQkIQ-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" source="SQWLTOSfCjaKpBRhQkIQ-2" target="SQWLTOSfCjaKpBRhQkIQ-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1350" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SQWLTOSfCjaKpBRhQkIQ-2" value="trade execution" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="1155" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SQWLTOSfCjaKpBRhQkIQ-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" source="SQWLTOSfCjaKpBRhQkIQ-3" target="SQWLTOSfCjaKpBRhQkIQ-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SQWLTOSfCjaKpBRhQkIQ-3" value="booking" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="460" y="260" width="120" height="60" as="geometry" />
+        <mxCell id="SQWLTOSfCjaKpBRhQkIQ-3" value="booking" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="1720" y="270" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="SQWLTOSfCjaKpBRhQkIQ-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SQWLTOSfCjaKpBRhQkIQ-4" target="SQWLTOSfCjaKpBRhQkIQ-17">
+        <mxCell id="SQWLTOSfCjaKpBRhQkIQ-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" source="SQWLTOSfCjaKpBRhQkIQ-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2070" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SQWLTOSfCjaKpBRhQkIQ-4" value="confirmation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="1880" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SQWLTOSfCjaKpBRhQkIQ-5" value="cash flow calculation" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2060" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SQWLTOSfCjaKpBRhQkIQ-6" value="valuation" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2060" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SQWLTOSfCjaKpBRhQkIQ-7" value="accrual" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2060" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SQWLTOSfCjaKpBRhQkIQ-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" source="SQWLTOSfCjaKpBRhQkIQ-8" target="SQWLTOSfCjaKpBRhQkIQ-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2845" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SQWLTOSfCjaKpBRhQkIQ-8" value="clearing&lt;div&gt;trade validation and determination of securities and financial volume that needs to be settled&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="2265" y="270" width="245" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SQWLTOSfCjaKpBRhQkIQ-9" value="settlement&lt;div&gt;ensures the buyer gets the product, the seller gets the money&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="2850" y="270" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wKs-RtY5d3qRZCri0VyZ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;" edge="1" parent="1" source="SQWLTOSfCjaKpBRhQkIQ-10" target="wKs-RtY5d3qRZCri0VyZ-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SQWLTOSfCjaKpBRhQkIQ-4" value="confirmation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="620" y="260" width="120" height="60" as="geometry" />
+        <mxCell id="SQWLTOSfCjaKpBRhQkIQ-10" value="risk assesment" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="10" y="720" width="140" height="192.5" as="geometry" />
         </mxCell>
-        <mxCell id="SQWLTOSfCjaKpBRhQkIQ-5" value="cash flow calculation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="770" y="440" width="120" height="60" as="geometry" />
+        <mxCell id="SQWLTOSfCjaKpBRhQkIQ-11" value="Credit risk calculation" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="20" y="752.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="SQWLTOSfCjaKpBRhQkIQ-6" value="valuation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="770" y="520" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="SQWLTOSfCjaKpBRhQkIQ-7" value="accrual" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="770" y="600" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="SQWLTOSfCjaKpBRhQkIQ-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SQWLTOSfCjaKpBRhQkIQ-8" target="SQWLTOSfCjaKpBRhQkIQ-9">
+        <mxCell id="GkCQzPKaeBIox6JI61MV-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;" edge="1" parent="1" source="SQWLTOSfCjaKpBRhQkIQ-13" target="GkCQzPKaeBIox6JI61MV-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SQWLTOSfCjaKpBRhQkIQ-8" value="clearing" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="920" y="260" width="120" height="60" as="geometry" />
+        <mxCell id="SQWLTOSfCjaKpBRhQkIQ-13" value="negotiaion" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="10" y="360" width="140" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="SQWLTOSfCjaKpBRhQkIQ-9" value="settlement" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1070" y="260" width="120" height="60" as="geometry" />
+        <mxCell id="SQWLTOSfCjaKpBRhQkIQ-15" value="matching" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1880" y="350" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="SQWLTOSfCjaKpBRhQkIQ-10" value="credit risk calculation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="340" width="120" height="60" as="geometry" />
+        <mxCell id="SQWLTOSfCjaKpBRhQkIQ-16" value="feedback" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1880" y="430" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="SQWLTOSfCjaKpBRhQkIQ-11" value="market risk calculation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="420" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="SQWLTOSfCjaKpBRhQkIQ-12" value="market risk calculation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="500" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="SQWLTOSfCjaKpBRhQkIQ-13" value="negotiaion" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="340" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="SQWLTOSfCjaKpBRhQkIQ-15" value="matching" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="610" y="340" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="SQWLTOSfCjaKpBRhQkIQ-16" value="feedback" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="610" y="420" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="SQWLTOSfCjaKpBRhQkIQ-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SQWLTOSfCjaKpBRhQkIQ-17" target="SQWLTOSfCjaKpBRhQkIQ-8">
+        <mxCell id="SQWLTOSfCjaKpBRhQkIQ-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" source="SQWLTOSfCjaKpBRhQkIQ-17" target="SQWLTOSfCjaKpBRhQkIQ-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SQWLTOSfCjaKpBRhQkIQ-17" value="post booking" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="770" y="260" width="120" height="60" as="geometry" />
+        <mxCell id="SQWLTOSfCjaKpBRhQkIQ-17" value="post booking" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="2060" y="270" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="SQWLTOSfCjaKpBRhQkIQ-18" value="trade scrutiny" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="770" y="340" width="120" height="60" as="geometry" />
+        <mxCell id="SQWLTOSfCjaKpBRhQkIQ-18" value="trade scrutiny" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2060" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GkCQzPKaeBIox6JI61MV-1" value="Trade price validation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2265" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GkCQzPKaeBIox6JI61MV-2" value="Trade quantity validation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2265" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GkCQzPKaeBIox6JI61MV-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;" edge="1" parent="1" source="GkCQzPKaeBIox6JI61MV-3" target="GkCQzPKaeBIox6JI61MV-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GkCQzPKaeBIox6JI61MV-3" value="Trade matching validation(if the trade happened through an exchange)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2265" y="617.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GkCQzPKaeBIox6JI61MV-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;" edge="1" parent="1" source="GkCQzPKaeBIox6JI61MV-4" target="GkCQzPKaeBIox6JI61MV-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GkCQzPKaeBIox6JI61MV-4" value="Netting" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2265" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GkCQzPKaeBIox6JI61MV-5" value="What is the process of trade of securities (bonds, stocks, treasury bills) in a financial system?" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="-50" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GkCQzPKaeBIox6JI61MV-6" value="If the settlement model is multilateral, trades between the same parties are grouped together and olny the difference is settled for efficiency purposes" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="2440" y="742.5" width="380" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="GkCQzPKaeBIox6JI61MV-8" value="if the trade was executed through an exchange, there were buy and sell orders involved and matched trough a matching algorithm. In this case the order book in the exchange is checked to see if both correspond to each other.&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Trade integrity&lt;/div&gt;&lt;div&gt;Fraud prevention&lt;/div&gt;&lt;div&gt;Ensure market rules are being followed&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;In the case of OTC trades, bilateral contracts are used&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="2440" y="570" width="380" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="GkCQzPKaeBIox6JI61MV-10" value="Risk management" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2265" y="817.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GkCQzPKaeBIox6JI61MV-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;" edge="1" parent="1" source="GkCQzPKaeBIox6JI61MV-11" target="GkCQzPKaeBIox6JI61MV-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GkCQzPKaeBIox6JI61MV-11" value="Margin requirements" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2265" y="897.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GkCQzPKaeBIox6JI61MV-12" value="Trade confirmation notification to the parties" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2265" y="977.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GkCQzPKaeBIox6JI61MV-13" value="To cover the costs in case any party defaults, funds or securities proportional to the amount traded is required to proceed with the trade" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="2440" y="900" width="380" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="GkCQzPKaeBIox6JI61MV-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;" edge="1" parent="1" source="GkCQzPKaeBIox6JI61MV-15" target="GkCQzPKaeBIox6JI61MV-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GkCQzPKaeBIox6JI61MV-15" value="Settlement instruction issuance" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2265" y="1057.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GkCQzPKaeBIox6JI61MV-16" value="Parties validation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2265" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GkCQzPKaeBIox6JI61MV-18" value="Directs how funds or securites should be transferred between parties, determining settlement obligations by calculating exact amounts to be exchanged" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="2440" y="1060" width="380" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="GkCQzPKaeBIox6JI61MV-22" value="quantity negotiation and calculation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GkCQzPKaeBIox6JI61MV-23" value="settlement date agreeent" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GkCQzPKaeBIox6JI61MV-25" value="This is the beginning of the settlement obligation establishiment. Parties agree on trade details and have a initial trade obligation. These obligatios are formalized by the clearing entity later on post-trade" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="190" y="382.5" width="380" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="9cL3kc_pPnMiD30VYn5v-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GkCQzPKaeBIox6JI61MV-28" target="9cL3kc_pPnMiD30VYn5v-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GkCQzPKaeBIox6JI61MV-28" value="Order matching" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1155" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wKs-RtY5d3qRZCri0VyZ-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="wKs-RtY5d3qRZCri0VyZ-1" target="SQWLTOSfCjaKpBRhQkIQ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wKs-RtY5d3qRZCri0VyZ-1" value="Order&lt;div&gt;instruction given by the client to execute trades in the financial market&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="650" y="270" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wKs-RtY5d3qRZCri0VyZ-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;" edge="1" parent="1" source="wKs-RtY5d3qRZCri0VyZ-2" target="wKs-RtY5d3qRZCri0VyZ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wKs-RtY5d3qRZCri0VyZ-2" value="order placement" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wKs-RtY5d3qRZCri0VyZ-3" value="trader submites buy/sell order to exchange or otc market. An order can be one of the following types: Mraket, limit, stop or execute or cancel" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="830" y="672.5" width="280" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="wKs-RtY5d3qRZCri0VyZ-5" value="market risk calculation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wKs-RtY5d3qRZCri0VyZ-6" value="Every trade brings credit risk (potencial financial losses in case the counter party defaults) and brings exposure to the market. These calculations are important so that traders can adjust the trade strategy for hedging" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="190" y="752.5" width="330" height="127.5" as="geometry" />
+        </mxCell>
+        <mxCell id="wKs-RtY5d3qRZCri0VyZ-9" value="Order validation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wKs-RtY5d3qRZCri0VyZ-10" value="Order routing" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wKs-RtY5d3qRZCri0VyZ-12" value="Order canceling" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9cL3kc_pPnMiD30VYn5v-1" value="In the case of the regulated market, where trades are executed in the exchange, order matching algorithms are used to match buy and sell orders automatically, considering the order type" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1335" y="346.25" width="315" height="87.5" as="geometry" />
+        </mxCell>
+        <mxCell id="9cL3kc_pPnMiD30VYn5v-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;" edge="1" parent="1" source="9cL3kc_pPnMiD30VYn5v-3" target="9cL3kc_pPnMiD30VYn5v-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9cL3kc_pPnMiD30VYn5v-3" value="Market Research and analysis" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="557.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9cL3kc_pPnMiD30VYn5v-4" value="Macroeconomic factors such as inflation, interest rate, GDP growth&lt;div&gt;Price trends and indicators&lt;/div&gt;&lt;div&gt;Industry trends, company earnings&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="190" y="560" width="380" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="9cL3kc_pPnMiD30VYn5v-6" value="Trade strategy development" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-3gWDQ8er-pBLE5MIMMh-3" value="regulatory and compliance checks" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="938.75" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-3gWDQ8er-pBLE5MIMMh-4" value="Transaction cost Analysis: analysis of execution costs, timing costs, market impact costs, opportunity costs to adjust trade strategy" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="20" y="130" width="630" height="55" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -192,20 +324,20 @@
     </mxGraphModel>
   </diagram>
   <diagram id="CfvD7zp03amqjf-tBKac" name="regulated-secondary-market">
-    <mxGraphModel dx="3457" dy="2844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2687" dy="2114" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="fSx5OAoCMaREUgOYRNBX-10" value="Private, semi-public or public entities" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="fSx5OAoCMaREUgOYRNBX-10" value="Private, semi-public or public entities" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="540" y="47.5" width="830" height="602.5" as="geometry" />
         </mxCell>
-        <mxCell id="fSx5OAoCMaREUgOYRNBX-12" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="fSx5OAoCMaREUgOYRNBX-9" target="fSx5OAoCMaREUgOYRNBX-11">
+        <mxCell id="fSx5OAoCMaREUgOYRNBX-12" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" source="fSx5OAoCMaREUgOYRNBX-9" target="fSx5OAoCMaREUgOYRNBX-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fSx5OAoCMaREUgOYRNBX-9" value="settlement process" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="fSx5OAoCMaREUgOYRNBX-9" value="settlement process" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="211" y="320" width="1139" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="sSh7pslCO_qe0BCRuW1R-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sSh7pslCO_qe0BCRuW1R-24" target="sSh7pslCO_qe0BCRuW1R-26">
+        <mxCell id="sSh7pslCO_qe0BCRuW1R-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="sSh7pslCO_qe0BCRuW1R-24" target="sSh7pslCO_qe0BCRuW1R-26" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="540" y="410" />
@@ -213,12 +345,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="sSh7pslCO_qe0BCRuW1R-49" value="sends settlement obligations" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sSh7pslCO_qe0BCRuW1R-48">
+        <mxCell id="sSh7pslCO_qe0BCRuW1R-49" value="sends settlement obligations" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="sSh7pslCO_qe0BCRuW1R-48" vertex="1" connectable="0">
           <mxGeometry x="-0.0204" y="-2" relative="1" as="geometry">
             <mxPoint y="-18" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sSh7pslCO_qe0BCRuW1R-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sSh7pslCO_qe0BCRuW1R-24" target="sSh7pslCO_qe0BCRuW1R-25">
+        <mxCell id="sSh7pslCO_qe0BCRuW1R-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="sSh7pslCO_qe0BCRuW1R-24" target="sSh7pslCO_qe0BCRuW1R-25" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="820" y="475" />
@@ -226,12 +358,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="sSh7pslCO_qe0BCRuW1R-53" value="notifies ownership exchange,&lt;div&gt;only after the delivery vs payment&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sSh7pslCO_qe0BCRuW1R-52">
+        <mxCell id="sSh7pslCO_qe0BCRuW1R-53" value="notifies ownership exchange,&lt;div&gt;only after the delivery vs payment&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="sSh7pslCO_qe0BCRuW1R-52" vertex="1" connectable="0">
           <mxGeometry x="-0.1268" y="-1" relative="1" as="geometry">
             <mxPoint x="13" y="-23" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fSx5OAoCMaREUgOYRNBX-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sSh7pslCO_qe0BCRuW1R-24" target="sSh7pslCO_qe0BCRuW1R-26">
+        <mxCell id="fSx5OAoCMaREUgOYRNBX-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="sSh7pslCO_qe0BCRuW1R-24" target="sSh7pslCO_qe0BCRuW1R-26" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="480" y="520" />
@@ -239,21 +371,21 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="fSx5OAoCMaREUgOYRNBX-14" value="security release" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fSx5OAoCMaREUgOYRNBX-13">
+        <mxCell id="fSx5OAoCMaREUgOYRNBX-14" value="security release" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="fSx5OAoCMaREUgOYRNBX-13" vertex="1" connectable="0">
           <mxGeometry x="0.0315" y="3" relative="1" as="geometry">
             <mxPoint y="-13" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sSh7pslCO_qe0BCRuW1R-24" value="clearinghouse" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="sSh7pslCO_qe0BCRuW1R-24" value="clearinghouse" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="580" y="340" width="340" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="sSh7pslCO_qe0BCRuW1R-16" value="exchange" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="sSh7pslCO_qe0BCRuW1R-16" value="exchange" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="600" y="90" width="390" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="sSh7pslCO_qe0BCRuW1R-7" value="Order is an instruction given by the intermediaries in the name of their clients, through trading desks or through electronic intermediaries.&lt;div&gt;Types of order include:&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Buy - bid and Sell - ask/offers&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;An order can be stop, limit, ioc or market, and these are important for the matching algorithm&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sSh7pslCO_qe0BCRuW1R-7" value="Order is an instruction given by the intermediaries in the name of their clients, through trading desks or through electronic intermediaries.&lt;div&gt;Types of order include:&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Buy - bid and Sell - ask/offers&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;An order can be stop, limit, ioc or market, and these are important for the matching algorithm&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="640" y="-70" width="440" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="sSh7pslCO_qe0BCRuW1R-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sSh7pslCO_qe0BCRuW1R-9" target="sSh7pslCO_qe0BCRuW1R-12">
+        <mxCell id="sSh7pslCO_qe0BCRuW1R-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="sSh7pslCO_qe0BCRuW1R-9" target="sSh7pslCO_qe0BCRuW1R-12" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="140" y="170" />
@@ -261,27 +393,27 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="sSh7pslCO_qe0BCRuW1R-11" value="places the order at the" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sSh7pslCO_qe0BCRuW1R-10">
+        <mxCell id="sSh7pslCO_qe0BCRuW1R-11" value="places the order at the" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="sSh7pslCO_qe0BCRuW1R-10" vertex="1" connectable="0">
           <mxGeometry x="-0.2612" y="-1" relative="1" as="geometry">
             <mxPoint x="26" y="-11" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fSx5OAoCMaREUgOYRNBX-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sSh7pslCO_qe0BCRuW1R-9" target="sSh7pslCO_qe0BCRuW1R-26">
+        <mxCell id="fSx5OAoCMaREUgOYRNBX-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="sSh7pslCO_qe0BCRuW1R-9" target="sSh7pslCO_qe0BCRuW1R-26" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-20" y="450" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="fSx5OAoCMaREUgOYRNBX-4" value="payment authorization" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fSx5OAoCMaREUgOYRNBX-3">
+        <mxCell id="fSx5OAoCMaREUgOYRNBX-4" value="payment authorization" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="fSx5OAoCMaREUgOYRNBX-3" vertex="1" connectable="0">
           <mxGeometry x="0.4851" y="2" relative="1" as="geometry">
             <mxPoint y="-13" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sSh7pslCO_qe0BCRuW1R-9" value="Investor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sSh7pslCO_qe0BCRuW1R-9" value="Investor" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-80" y="160" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sSh7pslCO_qe0BCRuW1R-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sSh7pslCO_qe0BCRuW1R-12" target="sSh7pslCO_qe0BCRuW1R-16">
+        <mxCell id="sSh7pslCO_qe0BCRuW1R-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="sSh7pslCO_qe0BCRuW1R-12" target="sSh7pslCO_qe0BCRuW1R-16" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="420" y="170" />
@@ -289,12 +421,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="sSh7pslCO_qe0BCRuW1R-18" value="routes order to" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sSh7pslCO_qe0BCRuW1R-17">
+        <mxCell id="sSh7pslCO_qe0BCRuW1R-18" value="routes order to" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="sSh7pslCO_qe0BCRuW1R-17" vertex="1" connectable="0">
           <mxGeometry x="-0.5667" y="2" relative="1" as="geometry">
             <mxPoint x="66" y="-8" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sSh7pslCO_qe0BCRuW1R-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sSh7pslCO_qe0BCRuW1R-12" target="sSh7pslCO_qe0BCRuW1R-9">
+        <mxCell id="sSh7pslCO_qe0BCRuW1R-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="sSh7pslCO_qe0BCRuW1R-12" target="sSh7pslCO_qe0BCRuW1R-9" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="130" y="210" />
@@ -302,18 +434,18 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="sSh7pslCO_qe0BCRuW1R-23" value="trade details" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sSh7pslCO_qe0BCRuW1R-22">
+        <mxCell id="sSh7pslCO_qe0BCRuW1R-23" value="trade details" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="sSh7pslCO_qe0BCRuW1R-22" vertex="1" connectable="0">
           <mxGeometry x="-0.0347" relative="1" as="geometry">
             <mxPoint y="-10" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fSx5OAoCMaREUgOYRNBX-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="sSh7pslCO_qe0BCRuW1R-12" target="sSh7pslCO_qe0BCRuW1R-42">
+        <mxCell id="fSx5OAoCMaREUgOYRNBX-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" source="sSh7pslCO_qe0BCRuW1R-12" target="sSh7pslCO_qe0BCRuW1R-42" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sSh7pslCO_qe0BCRuW1R-12" value="Intermediary" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="sSh7pslCO_qe0BCRuW1R-12" value="Intermediary" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="250" y="110" width="130" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="sSh7pslCO_qe0BCRuW1R-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sSh7pslCO_qe0BCRuW1R-16" target="sSh7pslCO_qe0BCRuW1R-12">
+        <mxCell id="sSh7pslCO_qe0BCRuW1R-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="sSh7pslCO_qe0BCRuW1R-16" target="sSh7pslCO_qe0BCRuW1R-12" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="410" y="200" />
@@ -321,12 +453,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="sSh7pslCO_qe0BCRuW1R-21" value="sends back trade confirmation" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sSh7pslCO_qe0BCRuW1R-20">
+        <mxCell id="sSh7pslCO_qe0BCRuW1R-21" value="sends back trade confirmation" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="sSh7pslCO_qe0BCRuW1R-20" vertex="1" connectable="0">
           <mxGeometry x="-0.0606" y="-1" relative="1" as="geometry">
             <mxPoint x="-2" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sSh7pslCO_qe0BCRuW1R-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sSh7pslCO_qe0BCRuW1R-16" target="sSh7pslCO_qe0BCRuW1R-24">
+        <mxCell id="sSh7pslCO_qe0BCRuW1R-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="sSh7pslCO_qe0BCRuW1R-16" target="sSh7pslCO_qe0BCRuW1R-24" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="670" y="270" as="sourcePoint" />
             <Array as="points">
@@ -335,52 +467,52 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="sSh7pslCO_qe0BCRuW1R-28" value="sends trade details to" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sSh7pslCO_qe0BCRuW1R-27">
+        <mxCell id="sSh7pslCO_qe0BCRuW1R-28" value="sends trade details to" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="sSh7pslCO_qe0BCRuW1R-27" vertex="1" connectable="0">
           <mxGeometry x="-0.1733" relative="1" as="geometry">
             <mxPoint x="15" y="-7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fSx5OAoCMaREUgOYRNBX-27" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="sSh7pslCO_qe0BCRuW1R-25" target="fSx5OAoCMaREUgOYRNBX-22">
+        <mxCell id="fSx5OAoCMaREUgOYRNBX-27" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" source="sSh7pslCO_qe0BCRuW1R-25" target="fSx5OAoCMaREUgOYRNBX-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sSh7pslCO_qe0BCRuW1R-25" value="CSD - central securities depository" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=left;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+        <mxCell id="sSh7pslCO_qe0BCRuW1R-25" value="CSD - central securities depository" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=left;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
           <mxGeometry x="1130" y="387.5" width="190" height="205" as="geometry" />
         </mxCell>
-        <mxCell id="sSh7pslCO_qe0BCRuW1R-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sSh7pslCO_qe0BCRuW1R-26" target="sSh7pslCO_qe0BCRuW1R-24">
+        <mxCell id="sSh7pslCO_qe0BCRuW1R-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="sSh7pslCO_qe0BCRuW1R-26" target="sSh7pslCO_qe0BCRuW1R-24" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sSh7pslCO_qe0BCRuW1R-51" value="settlement obligation fulfillment" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sSh7pslCO_qe0BCRuW1R-50">
+        <mxCell id="sSh7pslCO_qe0BCRuW1R-51" value="settlement obligation fulfillment" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="sSh7pslCO_qe0BCRuW1R-50" vertex="1" connectable="0">
           <mxGeometry x="-0.2317" y="2" relative="1" as="geometry">
             <mxPoint x="17" y="-8" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fSx5OAoCMaREUgOYRNBX-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="sSh7pslCO_qe0BCRuW1R-26" target="sSh7pslCO_qe0BCRuW1R-54">
+        <mxCell id="fSx5OAoCMaREUgOYRNBX-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" source="sSh7pslCO_qe0BCRuW1R-26" target="sSh7pslCO_qe0BCRuW1R-54" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="315" y="640" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sSh7pslCO_qe0BCRuW1R-26" value="custodian" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=left;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+        <mxCell id="sSh7pslCO_qe0BCRuW1R-26" value="custodian" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=left;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
           <mxGeometry x="235" y="360" width="160" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="sSh7pslCO_qe0BCRuW1R-31" value="order" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sSh7pslCO_qe0BCRuW1R-31" value="order" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="270" y="150" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="sSh7pslCO_qe0BCRuW1R-32" value="trade" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sSh7pslCO_qe0BCRuW1R-32" value="trade" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="270" y="180" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="sSh7pslCO_qe0BCRuW1R-33" value="trading desk" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sSh7pslCO_qe0BCRuW1R-33" value="trading desk" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="270" y="210" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="sSh7pslCO_qe0BCRuW1R-34" value="trading book/portfolio" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sSh7pslCO_qe0BCRuW1R-34" value="trading book/portfolio" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="270" y="240" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sSh7pslCO_qe0BCRuW1R-2" value="Trade execution" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sSh7pslCO_qe0BCRuW1R-2" value="Trade execution" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="630" y="170" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="sSh7pslCO_qe0BCRuW1R-37" value="Trading book" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sSh7pslCO_qe0BCRuW1R-37" value="Trading book" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="630" y="210" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="fSx5OAoCMaREUgOYRNBX-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sSh7pslCO_qe0BCRuW1R-38" target="sSh7pslCO_qe0BCRuW1R-39">
+        <mxCell id="fSx5OAoCMaREUgOYRNBX-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="sSh7pslCO_qe0BCRuW1R-38" target="sSh7pslCO_qe0BCRuW1R-39" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="645" y="410" />
@@ -388,113 +520,113 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="fSx5OAoCMaREUgOYRNBX-30" value="has" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fSx5OAoCMaREUgOYRNBX-29">
+        <mxCell id="fSx5OAoCMaREUgOYRNBX-30" value="has" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="fSx5OAoCMaREUgOYRNBX-29" vertex="1" connectable="0">
           <mxGeometry x="-0.6922" relative="1" as="geometry">
             <mxPoint x="15" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sSh7pslCO_qe0BCRuW1R-38" value="Trade" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sSh7pslCO_qe0BCRuW1R-38" value="Trade" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="600" y="370" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="sSh7pslCO_qe0BCRuW1R-39" value="Cashflow projection: credit and debit obligations" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sSh7pslCO_qe0BCRuW1R-39" value="Cashflow projection: credit and debit obligations" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="600" y="420" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sSh7pslCO_qe0BCRuW1R-40" value="Risk magament" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sSh7pslCO_qe0BCRuW1R-40" value="Risk magament" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="602.5" y="465" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="sSh7pslCO_qe0BCRuW1R-41" value="Netting: consolidation of all cash-flow obligations trades into a single transaction, per counterparty into a single net transaction. Reducing the number of payments and settlements required" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sSh7pslCO_qe0BCRuW1R-41" value="Netting: consolidation of all cash-flow obligations trades into a single transaction, per counterparty into a single net transaction. Reducing the number of payments and settlements required" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="600" y="497.5" width="290" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="sSh7pslCO_qe0BCRuW1R-42" value="The intermediary is an operator legally allowed to operate within the financial market, by the exchanges" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sSh7pslCO_qe0BCRuW1R-42" value="The intermediary is an operator legally allowed to operate within the financial market, by the exchanges" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="170" width="330" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sSh7pslCO_qe0BCRuW1R-43" value="Security ownership records" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+        <mxCell id="sSh7pslCO_qe0BCRuW1R-43" value="Security ownership records" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
           <mxGeometry x="1150" y="427.5" width="150" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="fSx5OAoCMaREUgOYRNBX-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="sSh7pslCO_qe0BCRuW1R-44" target="sSh7pslCO_qe0BCRuW1R-7">
+        <mxCell id="fSx5OAoCMaREUgOYRNBX-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" source="sSh7pslCO_qe0BCRuW1R-44" target="sSh7pslCO_qe0BCRuW1R-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sSh7pslCO_qe0BCRuW1R-44" value="order" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sSh7pslCO_qe0BCRuW1R-44" value="order" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="630" y="130" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="sSh7pslCO_qe0BCRuW1R-4" value="Settlement obligation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sSh7pslCO_qe0BCRuW1R-4" value="Settlement obligation" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="602.5" y="572.5" width="125" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="sSh7pslCO_qe0BCRuW1R-5" value="Payment authorization" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sSh7pslCO_qe0BCRuW1R-5" value="Payment authorization" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="250" y="440" width="125" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="sSh7pslCO_qe0BCRuW1R-6" value="Payment request" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sSh7pslCO_qe0BCRuW1R-6" value="Payment request" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="250" y="480" width="125" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="sSh7pslCO_qe0BCRuW1R-54" value="Holds and safeguard securities and cash for investors, ensuring settlement by managing payments and ownership updates" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sSh7pslCO_qe0BCRuW1R-54" value="Holds and safeguard securities and cash for investors, ensuring settlement by managing payments and ownership updates" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="150" y="670" width="330" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fSx5OAoCMaREUgOYRNBX-1" value="itau corretora, xp investimentos, nu investimentos, goldman sachs brokerage" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fSx5OAoCMaREUgOYRNBX-1" value="itau corretora, xp investimentos, nu investimentos, goldman sachs brokerage" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="170" y="-70" width="330" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fSx5OAoCMaREUgOYRNBX-2" value="itaú custodia, goldman sachs custody&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;even if the same company offers intermediary and custodian services, they must be separate entities for:&amp;nbsp;&lt;/div&gt;&lt;div&gt;- regulatory compliance purposes, to prevent conflict of interest&lt;/div&gt;&lt;div&gt;- risk management, separating trade execution from settlement and safekeepin&lt;br&gt;- client security, if the intermediary fails the client&#39;s asset is safe&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="fSx5OAoCMaREUgOYRNBX-2" value="itaú custodia, goldman sachs custody&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;even if the same company offers intermediary and custodian services, they must be separate entities for:&amp;nbsp;&lt;/div&gt;&lt;div&gt;- regulatory compliance purposes, to prevent conflict of interest&lt;/div&gt;&lt;div&gt;- risk management, separating trade execution from settlement and safekeepin&lt;br&gt;- client security, if the intermediary fails the client&#39;s asset is safe&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="150" y="745" width="330" height="175" as="geometry" />
         </mxCell>
-        <mxCell id="fSx5OAoCMaREUgOYRNBX-11" value="The settlement process follow the delivery x payment principle, ensuring security delivery only with payment conclusion" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="fSx5OAoCMaREUgOYRNBX-11" value="The settlement process follow the delivery x payment principle, ensuring security delivery only with payment conclusion" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="-310" y="505" width="437.5" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="fSx5OAoCMaREUgOYRNBX-15" value="&lt;b&gt;Order book:&lt;/b&gt; list of all buy and sell orders" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="fSx5OAoCMaREUgOYRNBX-15" value="&lt;b&gt;Order book:&lt;/b&gt; list of all buy and sell orders" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="765" y="110" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fSx5OAoCMaREUgOYRNBX-16" value="&lt;b&gt;Order Matching algorithm&lt;/b&gt;: responsible for matching buy and sell orders based on price, priority and timing" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="fSx5OAoCMaREUgOYRNBX-16" value="&lt;b&gt;Order Matching algorithm&lt;/b&gt;: responsible for matching buy and sell orders based on price, priority and timing" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="765" y="180" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fSx5OAoCMaREUgOYRNBX-19" value="Margin requiremetns" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fSx5OAoCMaREUgOYRNBX-19" value="Margin requiremetns" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="790" y="390" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="fSx5OAoCMaREUgOYRNBX-20" value="Clearing" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fSx5OAoCMaREUgOYRNBX-20" value="Clearing" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="790" y="420" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="fSx5OAoCMaREUgOYRNBX-21" value="Clearing Fees" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fSx5OAoCMaREUgOYRNBX-21" value="Clearing Fees" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="790" y="455" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="fSx5OAoCMaREUgOYRNBX-22" value="Track security ownership (who owns stocks, bonds and etc)&lt;div&gt;Also facilitate corporate actions, ensuring investors receive the rights and benefits brought by the ownership of securities&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fSx5OAoCMaREUgOYRNBX-22" value="Track security ownership (who owns stocks, bonds and etc)&lt;div&gt;Also facilitate corporate actions, ensuring investors receive the rights and benefits brought by the ownership of securities&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1440" y="415" width="410" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="fSx5OAoCMaREUgOYRNBX-23" value="Ownership transfer" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+        <mxCell id="fSx5OAoCMaREUgOYRNBX-23" value="Ownership transfer" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
           <mxGeometry x="1150" y="457.5" width="150" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="fSx5OAoCMaREUgOYRNBX-24" value="Dividends" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+        <mxCell id="fSx5OAoCMaREUgOYRNBX-24" value="Dividends" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
           <mxGeometry x="1150" y="487.5" width="150" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="fSx5OAoCMaREUgOYRNBX-25" value="Stock Splits" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+        <mxCell id="fSx5OAoCMaREUgOYRNBX-25" value="Stock Splits" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
           <mxGeometry x="1150" y="522.5" width="150" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="fSx5OAoCMaREUgOYRNBX-26" value="Interest" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+        <mxCell id="fSx5OAoCMaREUgOYRNBX-26" value="Interest" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
           <mxGeometry x="1150" y="552.5" width="150" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="fSx5OAoCMaREUgOYRNBX-28" value="Settlement Planning" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fSx5OAoCMaREUgOYRNBX-28" value="Settlement Planning" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="740" y="572.5" width="125" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="fSx5OAoCMaREUgOYRNBX-31" value="Counterparty" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fSx5OAoCMaREUgOYRNBX-31" value="Counterparty" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="740" y="350" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="fSx5OAoCMaREUgOYRNBX-32" value="Payment: the process of transferring cash from A to B" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fSx5OAoCMaREUgOYRNBX-32" value="Payment: the process of transferring cash from A to B" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="580" y="740" width="290" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="fSx5OAoCMaREUgOYRNBX-33" value="Settlement: finalization of the trade by transferring security ownership from A to B (happens only after payment confiramtion)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fSx5OAoCMaREUgOYRNBX-33" value="Settlement: finalization of the trade by transferring security ownership from A to B (happens only after payment confiramtion)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="580" y="820" width="290" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="fSx5OAoCMaREUgOYRNBX-34" value="&lt;p data-start=&quot;434&quot; data-end=&quot;500&quot;&gt;&lt;span data-start=&quot;503&quot; data-end=&quot;522&quot; style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;This model applies to regulated (&lt;/span&gt;&lt;strong data-start=&quot;503&quot; data-end=&quot;522&quot; style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Stock exchanges&lt;/strong&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;(e.g., NYSE, Nasdaq, B3, LSE)&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;) secondary markets:&lt;/span&gt;&lt;/p&gt;&lt;p data-start=&quot;434&quot; data-end=&quot;500&quot;&gt;&lt;strong data-start=&quot;556&quot; data-end=&quot;581&quot; style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Derivatives exchanges&lt;/strong&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt; (e.g., CME, ICE).&lt;/span&gt;&lt;/p&gt;&lt;p data-start=&quot;434&quot; data-end=&quot;500&quot;&gt;&lt;strong data-start=&quot;602&quot; data-end=&quot;626&quot; style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Cleared bond markets&lt;/strong&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;.&lt;/span&gt;&lt;/p&gt;&lt;p data-start=&quot;434&quot; data-end=&quot;500&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;li data-start=&quot;325&quot; data-end=&quot;385&quot;&gt;Investors trade &lt;strong data-start=&quot;343&quot; data-end=&quot;366&quot;&gt;existing securities&lt;/strong&gt; with each other.&lt;/li&gt;&lt;li data-start=&quot;386&quot; data-end=&quot;455&quot;&gt;Trades are executed &lt;strong data-start=&quot;408&quot; data-end=&quot;427&quot;&gt;via an exchange&lt;/strong&gt; (e.g., NYSE, B3, Nasdaq).&lt;/li&gt;&lt;li data-start=&quot;456&quot; data-end=&quot;544&quot;&gt;&lt;strong data-start=&quot;458&quot; data-end=&quot;502&quot;&gt;Central Counterparty Clearinghouse (CCP)&lt;/strong&gt; ensures settlement and risk management.&lt;/li&gt;&lt;li data-start=&quot;545&quot; data-end=&quot;615&quot;&gt;&lt;strong data-start=&quot;547&quot; data-end=&quot;592&quot;&gt;Custodians &amp;amp; depositories track ownership&lt;/strong&gt; after trades settle.&lt;/li&gt;&lt;li data-start=&quot;616&quot; data-end=&quot;669&quot;&gt;&lt;strong data-start=&quot;618&quot; data-end=&quot;637&quot;&gt;Netting is used&lt;/strong&gt; to reduce transaction volume.&lt;/li&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="fSx5OAoCMaREUgOYRNBX-34" value="&lt;p data-start=&quot;434&quot; data-end=&quot;500&quot;&gt;&lt;span data-start=&quot;503&quot; data-end=&quot;522&quot; style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;This model applies to regulated (&lt;/span&gt;&lt;strong data-start=&quot;503&quot; data-end=&quot;522&quot; style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Stock exchanges&lt;/strong&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;(e.g., NYSE, Nasdaq, B3, LSE)&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;) secondary markets:&lt;/span&gt;&lt;/p&gt;&lt;p data-start=&quot;434&quot; data-end=&quot;500&quot;&gt;&lt;strong data-start=&quot;556&quot; data-end=&quot;581&quot; style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Derivatives exchanges&lt;/strong&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt; (e.g., CME, ICE).&lt;/span&gt;&lt;/p&gt;&lt;p data-start=&quot;434&quot; data-end=&quot;500&quot;&gt;&lt;strong data-start=&quot;602&quot; data-end=&quot;626&quot; style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Cleared bond markets&lt;/strong&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;.&lt;/span&gt;&lt;/p&gt;&lt;p data-start=&quot;434&quot; data-end=&quot;500&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;li data-start=&quot;325&quot; data-end=&quot;385&quot;&gt;Investors trade &lt;strong data-start=&quot;343&quot; data-end=&quot;366&quot;&gt;existing securities&lt;/strong&gt; with each other.&lt;/li&gt;&lt;li data-start=&quot;386&quot; data-end=&quot;455&quot;&gt;Trades are executed &lt;strong data-start=&quot;408&quot; data-end=&quot;427&quot;&gt;via an exchange&lt;/strong&gt; (e.g., NYSE, B3, Nasdaq).&lt;/li&gt;&lt;li data-start=&quot;456&quot; data-end=&quot;544&quot;&gt;&lt;strong data-start=&quot;458&quot; data-end=&quot;502&quot;&gt;Central Counterparty Clearinghouse (CCP)&lt;/strong&gt; ensures settlement and risk management.&lt;/li&gt;&lt;li data-start=&quot;545&quot; data-end=&quot;615&quot;&gt;&lt;strong data-start=&quot;547&quot; data-end=&quot;592&quot;&gt;Custodians &amp;amp; depositories track ownership&lt;/strong&gt; after trades settle.&lt;/li&gt;&lt;li data-start=&quot;616&quot; data-end=&quot;669&quot;&gt;&lt;strong data-start=&quot;618&quot; data-end=&quot;637&quot;&gt;Netting is used&lt;/strong&gt; to reduce transaction volume.&lt;/li&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="-460" y="-230" width="530" height="270" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="AwSqmJ5ObTk3dnZBwW2H" name="otc-secondary-market">
-    <mxGraphModel dx="4435" dy="3498" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3503" dy="2564" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="cY0Ik6onA-GZHQuLcPp5-25" value="Accounting and operatinal tracking" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="cY0Ik6onA-GZHQuLcPp5-25" value="Accounting and operatinal tracking" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry y="-880" width="470" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="fIE6qyUSYCO2C4oXsgPm-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4bk1iu7C1ao3U0WCP8aI-1" target="fIE6qyUSYCO2C4oXsgPm-1">
+        <mxCell id="fIE6qyUSYCO2C4oXsgPm-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="4bk1iu7C1ao3U0WCP8aI-1" target="fIE6qyUSYCO2C4oXsgPm-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="180" y="240" />
@@ -502,15 +634,15 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="fIE6qyUSYCO2C4oXsgPm-10" value="order placement, counter offers" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fIE6qyUSYCO2C4oXsgPm-3">
+        <mxCell id="fIE6qyUSYCO2C4oXsgPm-10" value="order placement, counter offers" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="fIE6qyUSYCO2C4oXsgPm-3" vertex="1" connectable="0">
           <mxGeometry x="-0.3679" y="3" relative="1" as="geometry">
             <mxPoint x="25" y="-7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4bk1iu7C1ao3U0WCP8aI-1" value="Investor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="4bk1iu7C1ao3U0WCP8aI-1" value="Investor" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-130" y="220" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fIE6qyUSYCO2C4oXsgPm-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fIE6qyUSYCO2C4oXsgPm-1" target="4bk1iu7C1ao3U0WCP8aI-1">
+        <mxCell id="fIE6qyUSYCO2C4oXsgPm-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fIE6qyUSYCO2C4oXsgPm-1" target="4bk1iu7C1ao3U0WCP8aI-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="180" y="270" />
@@ -518,144 +650,144 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="fIE6qyUSYCO2C4oXsgPm-17" value="counterparty offers and counteroffers" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fIE6qyUSYCO2C4oXsgPm-16">
+        <mxCell id="fIE6qyUSYCO2C4oXsgPm-17" value="counterparty offers and counteroffers" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="fIE6qyUSYCO2C4oXsgPm-16" vertex="1" connectable="0">
           <mxGeometry x="-0.0619" relative="1" as="geometry">
             <mxPoint x="1" y="-10" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fIE6qyUSYCO2C4oXsgPm-1" value="Brokers" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="fIE6qyUSYCO2C4oXsgPm-1" value="Brokers" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="270" y="135" width="380" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="fIE6qyUSYCO2C4oXsgPm-2" value="Electronicy OTC Platform&lt;div&gt;Broker&lt;/div&gt;&lt;div&gt;Dealer&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fIE6qyUSYCO2C4oXsgPm-2" value="Electronicy OTC Platform&lt;div&gt;Broker&lt;/div&gt;&lt;div&gt;Dealer&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="200" y="40" width="250" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fIE6qyUSYCO2C4oXsgPm-4" value="No central exchange or order book" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fIE6qyUSYCO2C4oXsgPm-4" value="No central exchange or order book" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-30" y="40" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fIE6qyUSYCO2C4oXsgPm-5" value="Unilateral trade" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fIE6qyUSYCO2C4oXsgPm-5" value="Unilateral trade" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-30" y="110" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fIE6qyUSYCO2C4oXsgPm-6" value="Price is based on direct negotiation between the parties" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fIE6qyUSYCO2C4oXsgPm-6" value="Price is based on direct negotiation between the parties" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="140" y="120" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fIE6qyUSYCO2C4oXsgPm-7" value="Trade Negotiation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fIE6qyUSYCO2C4oXsgPm-7" value="Trade Negotiation" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="310" y="170" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fIE6qyUSYCO2C4oXsgPm-8" value="Trade Execution" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fIE6qyUSYCO2C4oXsgPm-8" value="Trade Execution" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="310" y="250" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fIE6qyUSYCO2C4oXsgPm-9" value="Clearinghouse" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fIE6qyUSYCO2C4oXsgPm-9" value="Clearinghouse" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="710" y="220" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fIE6qyUSYCO2C4oXsgPm-11" value="Counterparty search" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fIE6qyUSYCO2C4oXsgPm-11" value="Counterparty search" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="310" y="210" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fIE6qyUSYCO2C4oXsgPm-12" value="Contrast with the regulated market, order matching must be done manually, different from the regulated market tha5t has a matching algorithm&lt;div&gt;No centralized order book&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fIE6qyUSYCO2C4oXsgPm-12" value="Contrast with the regulated market, order matching must be done manually, different from the regulated market tha5t has a matching algorithm&lt;div&gt;No centralized order book&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="630" y="10" width="800" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="fIE6qyUSYCO2C4oXsgPm-13" value="Dealer network: investment bank, market maker, instituions" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fIE6qyUSYCO2C4oXsgPm-13" value="Dealer network: investment bank, market maker, instituions" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1050" y="490" width="300" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fIE6qyUSYCO2C4oXsgPm-14" value="Price negotiation, bid and ask prices" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fIE6qyUSYCO2C4oXsgPm-14" value="Price negotiation, bid and ask prices" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="890" y="530" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fIE6qyUSYCO2C4oXsgPm-18" value="Bilateral negotiation vs order matching: in the first prices are negotiated between the parties. In the second an algorithm performs price discovery and mateches orders" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fIE6qyUSYCO2C4oXsgPm-18" value="Bilateral negotiation vs order matching: in the first prices are negotiated between the parties. In the second an algorithm performs price discovery and mateches orders" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-490" y="510" width="450" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fIE6qyUSYCO2C4oXsgPm-19" value="Custodian: responsible for safekeeping securities and cash for investors" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="fIE6qyUSYCO2C4oXsgPm-19" value="Custodian: responsible for safekeeping securities and cash for investors" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="270" y="433" width="260" height="235" as="geometry" />
         </mxCell>
-        <mxCell id="gPhObR2BLYzQevFLzeTz-1" value="Payment authorization" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="gPhObR2BLYzQevFLzeTz-1" value="Payment authorization" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="290" y="490" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gPhObR2BLYzQevFLzeTz-4" value="Central Securities Depository: responsible for tracking the owership of securities" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="gPhObR2BLYzQevFLzeTz-4" value="Central Securities Depository: responsible for tracking the owership of securities" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="570" y="435" width="190" height="235" as="geometry" />
         </mxCell>
-        <mxCell id="gPhObR2BLYzQevFLzeTz-5" value="Ownership record" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="gPhObR2BLYzQevFLzeTz-5" value="Ownership record" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="590" y="500" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gPhObR2BLYzQevFLzeTz-6" value="Dividends" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="gPhObR2BLYzQevFLzeTz-6" value="Dividends" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="590" y="540" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gPhObR2BLYzQevFLzeTz-7" value="Interest" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="gPhObR2BLYzQevFLzeTz-7" value="Interest" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="590" y="580" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="cY0Ik6onA-GZHQuLcPp5-1" value="Stock splits" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="cY0Ik6onA-GZHQuLcPp5-1" value="Stock splits" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="590" y="620" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="cY0Ik6onA-GZHQuLcPp5-2" value="trade book: used to tracks trade details, client orders, inventory - securities held, risk exposure" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="cY0Ik6onA-GZHQuLcPp5-2" value="trade book: used to tracks trade details, client orders, inventory - securities held, risk exposure" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-150" y="-430" width="350" height="145" as="geometry" />
         </mxCell>
-        <mxCell id="cY0Ik6onA-GZHQuLcPp5-3" value="Client order tracking: no position taken, meaning they only offer services for operating in the market, but do not perform risk management" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="cY0Ik6onA-GZHQuLcPp5-3" value="Client order tracking: no position taken, meaning they only offer services for operating in the market, but do not perform risk management" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="450" y="170" width="170" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="cY0Ik6onA-GZHQuLcPp5-4" value="Broker: agent role - has no invetory" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="cY0Ik6onA-GZHQuLcPp5-4" value="Broker: agent role - has no invetory" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="300" y="-340" width="290" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="cY0Ik6onA-GZHQuLcPp5-5" value="Private trade book: used to tracks trade details, client orders, inventory - securities held, risk exposure" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="cY0Ik6onA-GZHQuLcPp5-5" value="Private trade book: used to tracks trade details, client orders, inventory - securities held, risk exposure" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-210" y="-190" width="350" height="145" as="geometry" />
         </mxCell>
-        <mxCell id="cY0Ik6onA-GZHQuLcPp5-6" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="cY0Ik6onA-GZHQuLcPp5-6" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="-300" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="cY0Ik6onA-GZHQuLcPp5-7" value="risk exposure" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="cY0Ik6onA-GZHQuLcPp5-7" value="risk exposure" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="340" y="-200" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="cY0Ik6onA-GZHQuLcPp5-8" value="trades" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="cY0Ik6onA-GZHQuLcPp5-8" value="trades" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="440" y="-245" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="cY0Ik6onA-GZHQuLcPp5-9" value="orders" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="cY0Ik6onA-GZHQuLcPp5-9" value="orders" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="440" y="-200" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="cY0Ik6onA-GZHQuLcPp5-11" value="Responsible for matching buyers and sellers and earn commision on completed trades&lt;div&gt;do not trade with their own money, therefore does not assume risks or take positions for risk market risk management&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="cY0Ik6onA-GZHQuLcPp5-11" value="Responsible for matching buyers and sellers and earn commision on completed trades&lt;div&gt;do not trade with their own money, therefore does not assume risks or take positions for risk market risk management&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="290" y="-510" width="350" height="145" as="geometry" />
         </mxCell>
-        <mxCell id="cY0Ik6onA-GZHQuLcPp5-12" value="Dealers: these are market makers" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="cY0Ik6onA-GZHQuLcPp5-12" value="Dealers: these are market makers" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="610" y="-340" width="290" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="cY0Ik6onA-GZHQuLcPp5-13" value="Trade book" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="cY0Ik6onA-GZHQuLcPp5-13" value="Trade book" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="630" y="-285" width="230" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="cY0Ik6onA-GZHQuLcPp5-14" value="Inventory" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="cY0Ik6onA-GZHQuLcPp5-14" value="Inventory" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="650" y="-245" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="cY0Ik6onA-GZHQuLcPp5-15" value="risk exposure" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="cY0Ik6onA-GZHQuLcPp5-15" value="risk exposure" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="650" y="-200" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="cY0Ik6onA-GZHQuLcPp5-16" value="trades" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="cY0Ik6onA-GZHQuLcPp5-16" value="trades" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="750" y="-245" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="cY0Ik6onA-GZHQuLcPp5-17" value="orders" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="cY0Ik6onA-GZHQuLcPp5-17" value="orders" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="750" y="-200" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="cY0Ik6onA-GZHQuLcPp5-18" value="Trade book: log of all executed trades, all executed transactions" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="cY0Ik6onA-GZHQuLcPp5-18" value="Trade book: log of all executed trades, all executed transactions" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry y="-740" width="220" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="cY0Ik6onA-GZHQuLcPp5-19" value="Trading book: real time portfolio of financial instruments held for trading" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="cY0Ik6onA-GZHQuLcPp5-19" value="Trading book: real time portfolio of financial instruments held for trading" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="-20" y="-1060" width="650" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="cY0Ik6onA-GZHQuLcPp5-20" value="Order book" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="cY0Ik6onA-GZHQuLcPp5-20" value="Order book" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry y="-700" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="cY0Ik6onA-GZHQuLcPp5-22" value="Market position: total exposure of an entity to a financial instrumentd&lt;div&gt;tracks what is owned, market risk, derivatives and hedging positions&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="cY0Ik6onA-GZHQuLcPp5-22" value="Market position: total exposure of an entity to a financial instrumentd&lt;div&gt;tracks what is owned, market risk, derivatives and hedging positions&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="-10" y="-1015" width="380" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="cY0Ik6onA-GZHQuLcPp5-23" value="Inventory: its an internal record of all securities one owns for trading" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="cY0Ik6onA-GZHQuLcPp5-23" value="Inventory: its an internal record of all securities one owns for trading" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="10" y="-840" width="380" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="cY0Ik6onA-GZHQuLcPp5-26" value="Long positions" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="cY0Ik6onA-GZHQuLcPp5-26" value="Long positions" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry y="-975" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="cY0Ik6onA-GZHQuLcPp5-27" value="Short positions" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="cY0Ik6onA-GZHQuLcPp5-27" value="Short positions" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="140" y="-970" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="cY0Ik6onA-GZHQuLcPp5-28" value="Market Risk exposure" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="cY0Ik6onA-GZHQuLcPp5-28" value="Market Risk exposure" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="385" y="-1015" width="125" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="cY0Ik6onA-GZHQuLcPp5-29" value="Profit and loss calculations" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="cY0Ik6onA-GZHQuLcPp5-29" value="Profit and loss calculations" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="385" y="-982.5" width="155" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="cY0Ik6onA-GZHQuLcPp5-30" value="Cash-flows: expected inflows and outflows" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="cY0Ik6onA-GZHQuLcPp5-30" value="Cash-flows: expected inflows and outflows" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="385" y="-950" width="235" height="25" as="geometry" />
         </mxCell>
       </root>
